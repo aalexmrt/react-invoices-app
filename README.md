@@ -7,27 +7,6 @@ This project involves migrating from a previous project to React for generating 
 
 ## WIP
 
-
-Invoices table
-
-- Checkbox
-- Invoice number
-- Date
-- Mail status info
-- Customer
-- PDF link
-- Action
-
-Invoice form
-
-- Invoice number
-- Date
-- Customer
-- Products
-  - Product name
-  - Quantity
-  - Price
-
 - [X] Create invoices table component
 - [X] Create a form to generate new invoices
 - [X] Connect to the API to save the invoices

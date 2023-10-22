@@ -1,0 +1,65 @@
+[
+  {
+    "invoiceNumber": "INV-0001",
+    "date": "2020-01-01",
+    "mailStatus": "succeed",
+    "customer": "Customer 1",
+    "id": "652f635bf70a82b19e7bea27"
+  },
+  {
+    "invoiceNumber": "INV-0002",
+    "date": "2020-02-01",
+    "mailStatus": "failed",
+    "customer": "Customer 2",
+    "id": "652f635bf70a82b19e7bea28"
+  },
+  {
+    "invoiceNumber": "INV-0003",
+    "date": "2020-03-01",
+    "mailStatus": "pending",
+    "customer": "Customer 3",
+    "id": "652f635bf70a82b19e7bea29"
+  },
+  {
+    "invoiceNumber": "INV-0004",
+    "date": "2020-04-01",
+    "mailStatus": "succeed",
+    "customer": "Customer 4",
+    "id": "652f635bf70a82b19e7bea30"
+  },
+  {
+    "invoiceNumber": "INV-0005",
+    "date": "2020-05-01",
+    "mailStatus": "pending",
+    "customer": "Customer 5",
+    "id": "652f635bf70a82b19e7bea31"
+  },
+  {
+    "invoiceNumber": "INV-0006",
+    "date": "2020-06-01",
+    "mailStatus": "failed",
+    "customer": "Customer 6",
+    "id": "652f635bf70a82b19e7bea32"
+  },
+  {
+    "invoiceNumber": "INV-0007",
+    "date": "2020-07-01",
+    "mailStatus": "succeed",
+    "customer": "Customer 7",
+    "id": "652f635bf70a82b19e7bea33"
+  },
+  {
+    "invoiceNumber": "INV-0008",
+    "date": "2020-08-01",
+    "mailStatus": "pending",
+    "customer": "Customer 8",
+    "id": "652f635bf70a82b19e7bea34"
+  },
+  {
+    "invoiceNumber": "INV-0009",
+    "date": "2020-09-01",
+    "mailStatus": "failed",
+    "customer": "Customer 9",
+    "id": "652f635bf70a82b19e7bea35"
+  }
+]

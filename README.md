@@ -3,6 +3,8 @@
 
 ## Introduction 
 
+Previous project: [Django invoices generator](https://github.com/aalexmrt/django-invoices-generator)
+
 This project involves migrating from a previous project to React for generating and mailing invoices. The project includes an invoices table component with various fields such as invoice number, date, customer, and PDF link, as well as a form for generating new invoices with product details. The project also includes integration with an API for saving invoices and a feature for deleting invoices. Additionally, the project has a focus on improving the user experience and fixing issues related to editing and creating invoices. Overall, the goal of the project is to provide a streamlined and efficient solution for generating and mailing invoices.
 
 ## WIP

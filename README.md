@@ -1,19 +1,28 @@
-
 # React Invoices App
 
 ## Introduction 
 
-This project involves migrating from a [previous project](https://github.com/aalexmrt/django-invoices-generator) to React for generating and mailing invoices. The project includes an invoices table component with various fields such as invoice number, date, customer, and PDF link, as well as a form for generating new invoices with product details. The project also includes integration with an API for saving invoices and a feature for deleting invoices. Additionally, the project has a focus on improving the user experience and fixing issues related to editing and creating invoices. Overall, the goal of the project is to provide a streamlined and efficient solution for generating and mailing invoices.
+Welcome to the React Invoices App, a project dedicated to transforming invoice generation and mailing. This project is a migration from a [previous Django project](https://github.com/aalexmrt/django-invoices-generator) to React, aimed at optimizing the process. 
 
-## WIP
+### Features
+- **Invoices Table Component:** Displays essential details like invoice number, date, customer, and PDF link.
+- **Invoice Form:** Allows seamless creation of new invoices, including product details.
+- **API Integration:** Connects to an API for saving invoices.
+- **Delete Functionality:** Provides a feature to delete invoices.
+- **Customer-Invoice Relation:** Establishes a clear relationship between customers and invoices.
+- **Enhanced User Experience:** Focuses on improving user interactions, addressing editing and creation issues.
+
+## Work in Progress
 
 - [X] Create invoices table component
-- [X] Create a form to generate new invoices
-- [X] Connect to the API to save the invoices
-- [X] Add button to delete invoice
-- [X] Add the relation between customer and invoice 
-- [X] Fix issues editing and creating invoices on same component
-- [ ] Add total to the state and update instantly
-- [ ] Fix issue defining default selected option on invoice form
-- [ ] Fix issue when editing invoice, invoice is not getting update properly on the state. The list doesn't render properly.
-- [ ] When redirecting the new invoice doesn't show up on the table# react-invoices-app
+- [X] Develop a form for generating new invoices
+- [X] Integrate with the API to save invoices
+- [X] Implement the ability to delete invoices
+- [X] Establish a relation between customers and invoices 
+- [X] Resolve issues related to editing and creating invoices on the same component
+- [X] Add real-time calculation for invoice totals
+- [ ] Address the default selected option issue on the invoice form
+- [ ] Resolve problems with updating edited invoices in the state; ensure proper rendering on the list
+- [ ] Implement proper redirection; ensure new invoices appear instantly on the table
+
+**Note:** The project is a work in progress, actively being developed to provide a seamless and efficient solution for generating and mailing invoices.

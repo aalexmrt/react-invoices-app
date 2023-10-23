@@ -25,4 +25,4 @@ Welcome to the React Invoices App, a project dedicated to transforming invoice g
 - [ ] Resolve problems with updating edited invoices in the state; ensure proper rendering on the list
 - [ ] Implement proper redirection; ensure new invoices appear instantly on the table
 
-**Note:** The project is a work in progress, actively being developed to provide a seamless and efficient solution for generating and mailing invoices.
+**Note:** The project is a work in progress.

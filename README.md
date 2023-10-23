@@ -5,16 +5,18 @@
 Project designed to simplify the process of generating and emailing invoices. Web application developed with React, implements a responsive design using NextUI components, styled with Tailwind CSS and integrates a custom API. This is a migration for a previous Django project [source code](https://github.com/aalexmrt/django-invoices-generator/) to implement good practices and better user experience.
 
 ## Project Features
-Invoice Generation: Create professional invoices effortlessly.
-Email Integration: Send invoices via email directly from the application.
-User-Friendly Interface: Intuitive design based on NextUI for a smooth user experience.
-Custom API Connectivity: Connects to a custom API to extend functionality.
-Migration from Django: This project is a migration from a previous Django-based system, enabling the implementation of best practices and improved user interactions.
+**Invoice Generation:** Create professional invoices effortlessly.
+**Email Integration:** Send invoices via email directly from the application.
+**User-Friendly Interface:** Intuitive design based on NextUI for a smooth user experience.
+**Custom API Connectivity:** Connects to a custom API to extend functionality.
+**Migration from Django:** This project is a migration from a previous Django-based system, enabling the implementation of best practices and improved user interactions.
 
 ## Installation
-Clone the repository: git clone [repository_url]
-Install dependencies: npm install
-Start the development server: npm start
+Clone the repository:
+`git clone git@github.com:aalexmrt/react-invoices-app.git`
+Install dependencies: 
+`npm install`
+`Start the development server: npm start`
 
 ## How to Contribute
 Community contributions are encouraged! To contribute to the React Invoices App, follow these steps:

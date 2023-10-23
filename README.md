@@ -1,18 +1,31 @@
+
 # React Invoices App
+**Status: In Progress**
 
-## Introduction 
+Project designed to simplify the process of generating and emailing invoices. Web application developed with React, implements a responsive design using NextUI components, styled with Tailwind CSS and integrates a custom API. This is a migration for a previous Django project [source code](https://github.com/aalexmrt/django-invoices-generator/) to implement good practices and better user experience.
 
-Welcome to the React Invoices App, a project dedicated to transforming invoice generation and mailing. This project is a migration from a [previous Django project](https://github.com/aalexmrt/django-invoices-generator) to React, aimed at optimizing the process. 
+## Project Features
+Invoice Generation: Create professional invoices effortlessly.
+Email Integration: Send invoices via email directly from the application.
+User-Friendly Interface: Intuitive design based on NextUI for a smooth user experience.
+Custom API Connectivity: Connects to a custom API to extend functionality.
+Migration from Django: This project is a migration from a previous Django-based system, enabling the implementation of best practices and improved user interactions.
 
-### Features
-- **Invoices Table Component:** Displays essential details like invoice number, date, customer, and PDF link.
-- **Invoice Form:** Allows seamless creation of new invoices, including product details.
-- **API Integration:** Connects to an API for saving invoices.
-- **Delete Functionality:** Provides a feature to delete invoices.
-- **Customer-Invoice Relation:** Establishes a clear relationship between customers and invoices.
-- **Enhanced User Experience:** Focuses on improving user interactions, addressing editing and creation issues.
+## Installation
+Clone the repository: git clone [repository_url]
+Install dependencies: npm install
+Start the development server: npm start
 
-## Work in Progress
+## How to Contribute
+Community contributions are encouraged! To contribute to the React Invoices App, follow these steps:
+
+## Fork the repository
+Create a new branch: git checkout -b feature/your-feature-name
+Commit your changes: git commit -m 'Add your feature'
+Push to the branch: git push origin feature/your-feature-name
+Submit a pull request
+
+## On going tasks
 
 - [X] Create invoices table component
 - [X] Develop a form for generating new invoices
@@ -25,4 +38,5 @@ Welcome to the React Invoices App, a project dedicated to transforming invoice g
 - [ ] Resolve problems with updating edited invoices in the state; ensure proper rendering on the list
 - [ ] Implement proper redirection; ensure new invoices appear instantly on the table
 
-**Note:** The project is a work in progress.
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.

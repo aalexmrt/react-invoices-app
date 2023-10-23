@@ -14,9 +14,11 @@ Project designed to simplify the process of generating and emailing invoices. We
 ## Installation
 Clone the repository:
 `git clone git@github.com:aalexmrt/react-invoices-app.git`
+
 Install dependencies: 
 `npm install`
-`Start the development server: npm start`
+
+Start the development server: `npm run dev`
 
 ## How to Contribute
 Community contributions are encouraged! To contribute to the React Invoices App, follow these steps:

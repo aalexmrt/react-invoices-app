@@ -1,33 +1,43 @@
-const API_URL = 'http://localhost:3000/invoices'
+const API_URL = 'http://localhost:3000/api/v1/invoices'
 
-export async function getInvoicesFromDB() {
-  const response = await fetch(API_URL)
-  const json = await response.json()
-
-  return json
-}
-
-export async function getInvoiceByIdFromDB(id) {
-  const response = await fetch(`${API_URL}/${id}`)
-  const json = await response.json()
-  return json
-}
-
-export async function addNewInvoiceToDB(invoice) {
+export async function getInvoices({ token }) {
   const response = await fetch(API_URL, {
-    method: 'POST',
     headers: {
-      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
     },
-    body: JSON.stringify(invoice),
+  })
+  const json = await response.json()
+
+  return json
+}
+
+export async function getInvoice({ id, token }) {
+  const response = await fetch(`${API_URL}/${id}`, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
   })
   const json = await response.json()
   return json
 }
 
-export async function editInvoiceFromDB(id, invoice) {
+export async function addInvoice({ invoice, token }) {
+  const response = await fetch(API_URL, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify(invoice),
+  })
+  const json = await response.json()
+
+  return json
+}
+
+export async function editInvoice(id, invoice) {
   const response = await fetch(`${API_URL}/${id}`, {
-    method: 'PUT',
+    method: 'PATCH',
     headers: {
       'Content-Type': 'application/json',
     },

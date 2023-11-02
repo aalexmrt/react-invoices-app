@@ -1,0 +1,62 @@
+{
+  "invoicesReducer": {
+    "initialState": {
+      "invoices": [],
+      "loading": false,
+      "error": false
+    },
+    "loadedStateExample": {
+      "invoices": [
+        {
+          "number": 1,
+          "date": "2017-01-01",
+          "customer": "John Doe",
+          "products": [
+            { "name": "Product 1", "price": 10, "quantity": 1, "total": 10 },
+            { "name": "Product 2", "price": 20, "quantity": 2, "total": 40 },
+            { "name": "Product 3", "price": 30, "quantity": 3, "total": 90 }
+          ]
+        }
+      ],
+      "loading": false,
+      "error": false
+    },
+    "actions": {
+      "ADD_INVOICE": "ADD_INVOICE",
+      "DELETE_INVOICE": "DELETE_INVOICE",
+      "GET_INVOICES": "GET_INVOICES"
+    }
+  },
+
+  "invoiceFormReducer": {
+    "initialState": {
+      "date": "",
+      "number": 0,
+      "customer": "",
+      "products": [{ "name": "", "price": 0, "quantity": 0, "total": 0 }]
+    },
+    "actions": {
+      "CHANGE_INPUT": "CHANGE_INPUT",
+      "CHANGE_INPUT_PRODUCT": "UPDATE_PRODUCT",
+      "ADD_PRODUCT_LINE": "ADD_PRODUCT_LINE"
+    }
+  },
+  "customerReducer": {
+    "initialState": [],
+    "loadedStateExample": [
+      {
+        "name": "John Doe",
+        "address": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    ],
+    "actions": {
+      "ADD_CUSTOMER": "ADD_CUSTOMER",
+      "DELETE_CUSTOMER": "DELETE_CUSTOMER",
+      "GET_CUSTOMERS": "GET_CUSTOMERS",
+      "UPDATE_CUSTOMER": "UPDATE_CUSTOMER"
+    }
+  }
+}

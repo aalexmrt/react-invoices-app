@@ -1,4 +1,14 @@
 
+## Important tasks
+
+- Add invoice
+- Edit invoice
+- PDF render 
+- Send email functionality
+- 
+
+
+
 # React Invoices App
 **Status: In Progress**
 
@@ -56,8 +66,14 @@ Submit a pull request
 - [X] Resolve issues related to editing and creating invoices on the same component
 - [X] Add real-time calculation for invoice totals
 - [ ] Address the default selected option issue on the invoice form
-- [ ] Resolve problems with updating edited invoices in the state; ensure proper rendering on the list
+- [ ] Resolve problems with updating edited invoices in the state; ensure proper 
+- [ ] Create InputPassword component to handle the logic of the visibility
+- [ ] 
+- [ ] 
+- [ ] rendering on the list
 - [ ] Implement proper redirection; ensure new invoices appear instantly on the table
+
+
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
